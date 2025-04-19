@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="styles1.css"> -->
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
+
+
+
+        <title>Portfolio website AKASH</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="mailto:akashchaudhary34662@gmail.com?subject=Inquiry&body=Hello, I have a question about your portfolio." class="nav__logo">Aakash</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Akash</span><br> Fronted Developer</h1>
+
+                    <a href="mailto:akashchaudhary34662@gmail.com?subject=Inquiry&body=Hello, I have a question about your portfolio." class="button">Contact</a><span></span>
+                    <a href="assests/AKASH_CHAUDHARY_ECE_RESUME.pdf" class="button" download>Download CV</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFP1qhyrsGjnwAAAZY-pHdACXtJk9pWPvy1-Y5THQKWWlJutg2xZbO7sUoqX9qSb_Qtmn1TDkWwamrRXmgtQa3jXTHf6m5B5_q-SfXjVDzfUIbotb8DO3X4KzXihyoPlj9NFQ4=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fakash-chaudhary-a9b57528b%2F" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://leetcode.com/u/210509/" class="home__social-icon"><i class='bx bx-code-alt' ></i></a>
+                    <a href="https://github.com/Akash2104001" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="mailto:akashchaudhary34662@gmail.com?subject=Inquiry&body=Hello, I have a question about your portfolio." class="home__social-icon"><i class='bx bx-envelope skills__icon' style="color: black;" ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assests/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assests/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Akash</h2>
+                        <p class="about__text">I'm Akash Kumar Chaudhary, a final-year B.Tech student in Electronics and Communication Engineering at National Institute of Technology, Patna, with a strong passion for frontend web development and building engaging user experiences.
+
+                            I specialize in HTML, CSS, and JavaScript, and have built responsive, real-world web applications like a Short URL Generator and a Real-Time News Website. These projects demonstrate my ability to create dynamic interfaces, integrate APIs, and implement essential features like user authentication and data handling.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Proficient in HTML, CSS, JavaScript, with a strong grasp of Responsive Web Design and API Integration. Skilled in Data Structures, Algorithms, and Object-Oriented Programming. Experienced with tools like VS Code, Git, and GitHub for efficient development and collaboration.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='devicon-cplusplus-plain skills__icon'></i>
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fab fa-react skills__icon'></i>
+                                <span class="skills__name">React.js</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assests/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+              
+                <div class="work__container bd-grid">
+
+                <!-- Portfolio Website -->
+                <div class="project-box">
+                 <img src="assests/portfolio.png" alt="Portfolio Website" class="project-logo">
+                 <h3>Portfolio Website</h3>
+                 <p>A personal portfolio site to showcase my projects and skills. Built with HTML, CSS, and JavaScript. Fully responsive and modern design.</p>
+                 <a href="#" class="project-link" target="_blank">View Project</a>
+                </div>
+  
+                  
+                  <!-- Short URL Generator -->
+                  <div class="project-box">
+                    <img src="assests/shorturl.jpg" alt="Short URL Generator" class="project-logo">
+                    <h3>Short URL Generator</h3>
+                    <p>A web app to shorten URLs with user auth. Built with HTML, CSS, JavaScript, and MongoDB.</p>
+                    <a href="#" class="project-link" target="_blank">View Project</a>
+                  </div>
+              
+                  <!-- News Website -->
+                  <div class="project-box">
+                    <img src="assests/news.jpg" alt="News Website" class="project-logo">
+                    <h3>News Website</h3>
+                    <p>Real-time news app using HTML, CSS, JavaScript, and APIs. Responsive UI and dynamic content.</p>
+                    <a href="#" class="project-link" target="_blank">View Project</a>
+                  </div>
+              
+                  <!-- Amazon Frontend Clone -->
+                  <div class="project-box">
+                    <img src="assests/amazon-fronted.jpg" alt="Amazon Clone" class="project-logo">
+                    <h3>Amazon Frontend Clone</h3>
+                    <p>Cloned the Amazon UI with HTML, CSS, and JavaScript. Fully responsive and pixel-perfect.</p>
+                    <a href="https://github.com/Akash2104001/Amazon-Fronted-Clone" class="project-link" target="_blank">View Project</a>
+                  </div>
+              
+                  <!-- Calculator App -->
+                  <div class="project-box">
+                    <img src="assests/calculator.jpg" alt="Calculator App" class="project-logo">
+                    <h3>Calculator App</h3>
+                    <p>Simple and interactive calculator built using HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/Akash2104001/calculator-app" class="project-link" target="_blank">View Project</a>
+                  </div>
+              
+                </div>
+              </section>
+              
+              
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+            
+                <div class="contact__container bd-grid">
+                    <form id="contactForm" class="contact__form">
+                        <input type="text" id="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" id="email" placeholder="Email" class="contact__input" required>
+                        <textarea id="message" cols="0" rows="10" placeholder="Your Message" class="contact__input" required></textarea>
+                        <button type="submit" class="contact__button button">Submit</button>
+                    </form>
+                    <p id="successMessage" style="display:none; color: green; margin-top: 1rem;">Sorry, we are unable to contact you right now due to a technical issue. To reach me, please feel free to email me.</p>
+                </div>
+            </section>
+            
+            
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Aakash</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Akash @ All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="app.js"></script>
+    </body>
+</html>
